@@ -1,4 +1,4 @@
-//懒汉模式
+//饿汉模式
 public class SingletonOne
 {
     private SingletonOne(){}
