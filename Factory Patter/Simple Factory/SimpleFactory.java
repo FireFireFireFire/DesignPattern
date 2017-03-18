@@ -26,7 +26,7 @@ public class SimpleFactory
         Human human=null;
         try
         {
-            human=(Human)Class.forName(c.genName()).new Instance();
+            human=(Human)Class.forName(c.getName()).new Instance();
         }
         catch(InstantiationException e)
         {
